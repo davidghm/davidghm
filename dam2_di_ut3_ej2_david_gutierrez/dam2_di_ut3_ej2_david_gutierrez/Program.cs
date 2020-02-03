@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace dam2_di_ut3_ej2_david_gutierrez
+namespace ejemplo_desconectado_mysql
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace dam2_di_ut3_ej2_david_gutierrez
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-        }
+            Application.Run(new Form1());            
+    }
     }
 }
